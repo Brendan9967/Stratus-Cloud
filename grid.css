@@ -1,0 +1,166 @@
+/*
+
+Stratus Cloud
+Version: 0.0.5
+www.projectovercast.com
+Grid System
+
+*/
+
+/***************** Grid *******************/
+
+.column {margin:0 auto; float:left; display:inline;}
+.row {position:relative; width:1200px; margin:0 auto; }
+.onecol {width:100px;}
+.twocol {width:200px;}
+.threecol {width:300px;}
+.fourcol {width:400px;}
+.fivecol {width:500px;}
+.sixcol {width:600px;}
+.sevencol {width:700px;}
+.eightcol {width:800px;}
+.ninecol {width:900px;}
+.tencol {width:1000px;}
+.elevencol {width:1100px;}
+.twelvecol {width:1200px;}
+
+/*=================================*/
+@media only screen and (min-width: 1008px) and (max-width: 1199px) {
+.row {width:1008px; margin:0 auto;}
+.onecol {width:84px;} 
+.twocol {width:168px;}
+.threecol {width:252px;}
+.fourcol {width:336px;}
+.fivecol {width:420px;}
+.sixcol {width:504px;}
+.sevencol {width:588px;}
+.eightcol {width:672px;}
+.ninecol {width:756px;}
+.tencol {width:840px;}
+.elevencol {width:924px;}
+.twelvecol {width:1008px;}
+}
+
+/* User CSS */
+
+/*=================================*/
+@media only screen and (min-width: 864px) and (max-width: 1007px) {
+.row {width:864px; margin:0 auto;}
+.onecol {width: 72px;} 
+.twocol {width: 144px;}
+.threecol {width: 216px;}
+.fourcol {width: 288px;}
+.fivecol {width: 360px;}
+.sixcol {width: 432px;}
+.sevencol {width: 504px;}
+.eightcol {width: 576px;}
+.ninecol {width: 648px;}
+.tencol {width: 720px;}
+.elevencol {width: 792px;}
+.twelvecol {width: 864px;}
+}
+
+/* User CSS */
+
+/*=================================*/
+@media only screen and (min-width: 720px) and (max-width: 863px) {
+.row {width:720px; margin:0 auto;}
+.onecol {width:60px;} 
+.twocol {width:120px;}
+.threecol {width:180px;}
+.fourcol {width:240px;}
+.fivecol {width:300px;}
+.sixcol {width:360px;}
+.sevencol {width:420px;}
+.eightcol {width:480px;}
+.ninecol {width:540px;}
+.tencol {width:600px;}
+.elevencol {width:660px;}
+.twelvecol {width:720px;}
+}
+
+/* User CSS */
+
+/*=================================*/
+@media only screen and (min-width: 576px) and (max-width: 719px) {
+.row {width:576px; margin:0 auto;}
+.onecol {width:48px;} 
+.twocol {width:96px;}
+.threecol {width:144px;}
+.fourcol {width:192px;}
+.fivecol {width:240px;}
+.sixcol {width:288px;}
+.sevencol {width:336px;}
+.eightcol {width:384px;}
+.ninecol {width:432px;}
+.tencol {width:480px;}
+.elevencol {width:528px;}
+.twelvecol {width:576px;}
+}
+
+/* User CSS */
+
+/*=================================*/
+@media only screen and (min-width: 432px) and (max-width: 575px) {
+.row {width:432px; margin:0 auto;}
+.onecol {width:36px;} 
+.twocol {width:72px;}
+.threecol {width:108px;}
+.fourcol {width:144px;}
+.fivecol {width:180px;}
+.sixcol {width:216px;}
+.sevencol {width:252px;}
+.eightcol {width:288px;}
+.ninecol {width:324px;}
+.tencol {width:360px;}
+.elevencol {width:396px;}
+.twelvecol {width:432px;}
+}
+
+/* User CSS */
+
+/*=================================*/
+@media only screen and (max-width: 432px) {
+.row {width:100%; margin:0 auto;}
+.onecol {width:100%; float:left;} 
+.twocol {width:100%; float:left;} 
+.threecol {width:100%; float:left;} 
+.fourcol {width:100%; float:left;} 
+.fivecol {width:100%; float:left;} 
+.sixcol {width:100%; float:left;} 
+.sevencol {width:100%; float:left;} 
+.eightcol {width:100%; float:left;} 
+.ninecol {width:100%; float:left;} 
+.tencol {width:100%; float:left;} 
+.elevencol {width:100%; float:left;} 
+.twelvecol {width:100%; float:left;} 
+}
+
+/* User CSS */
+
+/***************** Forms *******************/
+
+/***************** Buttons *******************/
+
+/* For Testing */
+
+body {
+	background: #e3e3e3;
+}
+
+.row, .column {
+	height: 100px;
+}
+
+h1 { text-align:center; font-size: 25px; }
+
+p {
+padding: 5px;
+text-align: left;
+word-wrap: break-word;
+}
+
+.onecol, .threecol, .fivecol {background: #b3b3b3;}
+.sevencol, .ninecol, .elevencol {background: grey;}
+.twocol, .fourcol, .sixcol {background: black;}
+.eightcol, .tencol, .twelvecol {background: white;}
