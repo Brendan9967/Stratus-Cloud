@@ -36,10 +36,10 @@ Grid System
 .tencol {width:840px;}
 .elevencol {width:924px;}
 .twelvecol {width:1008px;}
-}
 
 /* User CSS */
 
+}
 /*=================================*/
 @media only screen and (min-width: 864px) and (max-width: 1007px) {
 .row {width:864px; margin:0 auto;}
@@ -55,9 +55,10 @@ Grid System
 .tencol {width: 720px;}
 .elevencol {width: 792px;}
 .twelvecol {width: 864px;}
-}
 
 /* User CSS */
+
+}
 
 /*=================================*/
 @media only screen and (min-width: 720px) and (max-width: 863px) {
@@ -74,10 +75,10 @@ Grid System
 .tencol {width:600px;}
 .elevencol {width:660px;}
 .twelvecol {width:720px;}
-}
 
 /* User CSS */
 
+}
 /*=================================*/
 @media only screen and (min-width: 576px) and (max-width: 719px) {
 .row {width:576px; margin:0 auto;}
@@ -93,9 +94,10 @@ Grid System
 .tencol {width:480px;}
 .elevencol {width:528px;}
 .twelvecol {width:576px;}
-}
 
 /* User CSS */
+
+}
 
 /*=================================*/
 @media only screen and (min-width: 432px) and (max-width: 575px) {
@@ -112,9 +114,10 @@ Grid System
 .tencol {width:360px;}
 .elevencol {width:396px;}
 .twelvecol {width:432px;}
-}
 
 /* User CSS */
+
+}
 
 /*=================================*/
 @media only screen and (max-width: 432px) {
@@ -131,6 +134,7 @@ Grid System
 .tencol {width:100%; float:left;} 
 .elevencol {width:100%; float:left;} 
 .twelvecol {width:100%; float:left;} 
-}
 
 /* User CSS */
+
+}
