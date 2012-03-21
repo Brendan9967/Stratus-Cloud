@@ -1,10 +1,7 @@
 /*
-
 Stratus Cloud
-Version: 0.0.5
-www.projectovercast.com
+http://projectovercast.com/stratuscloud
 Grid System
-
 */
 
 /***************** Grid *******************/
@@ -137,30 +134,3 @@ Grid System
 }
 
 /* User CSS */
-
-/***************** Forms *******************/
-
-/***************** Buttons *******************/
-
-/* For Testing */
-
-body {
-	background: #e3e3e3;
-}
-
-.row, .column {
-	height: 100px;
-}
-
-h1 { text-align:center; font-size: 25px; }
-
-p {
-padding: 5px;
-text-align: left;
-word-wrap: break-word;
-}
-
-.onecol, .threecol, .fivecol {background: #b3b3b3;}
-.sevencol, .ninecol, .elevencol {background: grey;}
-.twocol, .fourcol, .sixcol {background: black;}
-.eightcol, .tencol, .twelvecol {background: white;}
